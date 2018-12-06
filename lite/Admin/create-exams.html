@@ -11,20 +11,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
     <title>Create Exam | Afternoon Prep</title>
     <!-- Bootstrap Core CSS -->
-    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- chartist CSS -->
-    <link href="../assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
-    <link href="../assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
-    <link href="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <link href="../../assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
+    <link href="../../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
     <!--This page css - Morris CSS -->
-    <link href="../assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/c3-master/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link href="css/colors/blue.css" id="theme" rel="stylesheet">
+    <link href="../css/colors/blue.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +59,7 @@
                     <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
 
                     <!-- Light Logo icon -->
-                    <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                    <img src="../../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
                 </b>
                     <!--End Logo icon -->
                     <!-- Logo text --><span>
@@ -95,7 +95,7 @@
                     <!-- Profile -->
                     <!-- ============================================================== -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic m-r-10" />EkeneDee</a>
+                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../assets/images/users/1.jpg" alt="user" class="profile-pic m-r-10" />EkeneDee</a>
                     </li>
                 </ul>
             </div>
@@ -178,30 +178,49 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-block">
-                            Create your exam
-                            <form class="form-horizontal form-material">
-                                <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2 class="" style="float: left;">Create your Exam</h2>
+                                </div>
+                                <div class="col-md-6" style="align-content: right">
+                                    <h4 class="sidebar-nav" style="text-align: right;">Saved <span>3-12-18 01:36am</span></h4>
+                                </div>
+                            </div>
+                            <form class="form-horizontal form-material" id="q-container">
+                                <div class="form-group q-block">
                                     <label class="col-md-12">Question 1</label>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12" id="q-child">
                                         <input type="text" placeholder="Type the Question here" class="form-control form-control-line" required>
                                         <div>
+                                            <input type="image" placeholder="">
                                             <input type="text" placeholder="A" class="form-control form-contral-line col-md-3" required>
                                             <input type="text" placeholder="B" class="form-control form-contral-line col-md-3" required>
                                             <input type="text" placeholder="C" class="form-control form-contral-line col-md-3" required>
                                             <input type="text" placeholder="D" class="form-control form-contral-line col-md-2" required>
                                         </div>
+                                        <form action="" class="form-group">
+                                            <!--<label> Select Answer</label><br>-->
+                                            <input type="checkbox" class="" value="A"> A<br>
+                                            <input type="checkbox" class="" value="B"> B<br>
+                                            <input type="checkbox" class="" value="C"> C <br>
+                                            <input type="checkbox" class="" value="D"> D <br>
+                                        </form>
+
+                                        <input type="radio" required>
                                     </div>
                                 </div>
-
+                                <div class="card">
+                                    <button class="btn btn-primary prevent-default" id="next">Next Question</button>
+                                </div>
                                 <div class="row">
                                     <div class="form-group">
                                         <div class="col-sm-12">
-                                            <button class="btn btn-dropbox subm">Save</button>
+                                            <button class="btn btn-dropbox prevent-default">Save</button>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="col-sm-12">
-                                            <button class="btn btn-success">Publish</button>
+                                            <button class="btn btn-success prevent-default">Publish</button>
                                         </div>
                                     </div>
                                 </div>
@@ -237,31 +256,40 @@
 <!-- ============================================================== -->
 <!-- All Jquery -->
 <!-- ============================================================== -->
-<script src="../assets/plugins/jquery/jquery.min.js"></script>
+
+<script>
+    // $(".prevent-default").click(function (e){
+    //     e.preventDefault();
+    // });
+    $("#next").click( function () {
+       $(".q-block").append("<div>Me no like bad belle</div>");
+    });
+</script>
+<script src="../../assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap tether Core JavaScript -->
-<script src="../assets/plugins/bootstrap/js/tether.min.js"></script>
-<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../assets/plugins/bootstrap/js/tether.min.js"></script>
+<script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- slimscrollbar scrollbar JavaScript -->
-<script src="js/jquery.slimscroll.js"></script>
+<script src="../js/jquery.slimscroll.js"></script>
 <!--Wave Effects -->
-<script src="js/waves.js"></script>
+<script src="../js/waves.js"></script>
 <!--Menu sidebar -->
-<script src="js/sidebarmenu.js"></script>
+<script src="../js/sidebarmenu.js"></script>
 <!--stickey kit -->
-<script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+<script src="../../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
 <!--Custom JavaScript -->
-<script src="js/custom.min.js"></script>
+<script src="../js/custom.min.js"></script>
 <!-- ============================================================== -->
 <!-- This page plugins -->
 <!-- ============================================================== -->
 <!-- chartist chart -->
-<script src="../assets/plugins/chartist-js/dist/chartist.min.js"></script>
-<script src="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+<script src="../../assets/plugins/chartist-js/dist/chartist.min.js"></script>
+<script src="../../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
 <!--c3 JavaScript -->
-<script src="../assets/plugins/d3/d3.min.js"></script>
-<script src="../assets/plugins/c3-master/c3.min.js"></script>
+<script src="../../assets/plugins/d3/d3.min.js"></script>
+<script src="../../assets/plugins/c3-master/c3.min.js"></script>
 <!-- Chart JS -->
-<script src="js/dashboard1.js"></script>
+<script src="../js/dashboard1.js"></script>
 </body>
 
 </html>
