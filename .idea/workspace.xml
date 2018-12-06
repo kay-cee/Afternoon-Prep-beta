@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15980ae7-9510-474d-a4d9-b47112a454cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lite/Admin/entrance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/Users/Exams.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/Users/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/Users/take-exams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/Exams.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/Exams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/Users.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/Users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/active-exams.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/active-exams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/create-exams.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/create-exams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/exam-drafts.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/exam-drafts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/icon-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/icon-material.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/uploads.html" beforeDir="false" afterPath="$PROJECT_DIR$/lite/Admin/uploads.html" afterDir="false" />
-    </list>
+    <list default="true" id="15980ae7-9510-474d-a4d9-b47112a454cc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -377,18 +362,17 @@
       <workItem from="1542174077823" duration="60000" />
       <workItem from="1542766432960" duration="1770000" />
       <workItem from="1542770155099" duration="3300000" />
-      <workItem from="1543847137658" duration="22333000" />
+      <workItem from="1543847137658" duration="22639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80072000" />
+    <option name="totallyTimeSpent" value="80378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="151" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17882055" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17882055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +384,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.328877" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
